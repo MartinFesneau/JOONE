@@ -1,7 +1,6 @@
-
 <div class="container">
-  <h1>JOONE PRODUCTS LIST</h1>
-    <div class="d-flex flex-wrap">
+  <h1 class="mt-3">JOONE PRODUCTS LIST</h1>
+    <div class="products">
         <% @products.each do |product| %>
           <%= react_component("Product", { name: product.name, image: product.image }) %>
         <% end %>
