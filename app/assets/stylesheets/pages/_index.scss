@@ -1,2 +1,13 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.product > img {
+  width: 200px;
+  height: 200px;
+}
+
+.product {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}

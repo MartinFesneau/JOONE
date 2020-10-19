@@ -5,9 +5,9 @@ class Product extends React.Component {
   render () {
       
     return (
-      <div className="mr-3">
+      <div className="product mr-3 mb-3">
         <img src={`${this.props.image}`} alt=""/>
-        <p>{this.props.jooneId} - {this.props.name}</p>
+        <p>{this.props.name}</p>
       </div>
     );
   }
