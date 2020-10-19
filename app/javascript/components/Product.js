@@ -1,7 +1,6 @@
 import React from "react"
 class Product extends React.Component {
   render () {
-      
     return (
       <div className="card-product">
         <img src={`${this.props.image}`} />
